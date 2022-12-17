@@ -128,6 +128,7 @@ if uploaded_file is not None:
         br_chart6.update_layout(title_text='<b>Test Cases Assigned<b>',title_x=0.5)
         br_chart6.update_coloraxes(showscale=False)
         br_chart6.update_layout(yaxis_title=None,xaxis_title=None)
+        br_chart6.update_traces(width=0.5)
         st.plotly_chart(br_chart6)
     with c11:
         filter_df=filtered_df['P/F'].value_counts()
