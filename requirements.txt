@@ -1,0 +1,16 @@
+plotly
+xlrd
+xlutils 
+xlwt 
+datetime 
+PIL 
+email
+smtplib
+ssl
+fpdf 
+base64
+yaml
+streamlit_authenticator
+io
+dash_core_components 
+
