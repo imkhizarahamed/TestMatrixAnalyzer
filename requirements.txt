@@ -4,3 +4,4 @@ xlutils
 xlwt 
 datetime 
 pillow
+openpyxl
