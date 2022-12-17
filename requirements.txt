@@ -1,0 +1,6 @@
+plotly
+xlrd
+xlutils 
+xlwt 
+datetime 
+pillow
