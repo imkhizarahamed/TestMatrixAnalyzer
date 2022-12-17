@@ -1,6 +1,0 @@
-plotly
-xlrd
-xlutils 
-xlwt 
-datetime 
-PIL 
