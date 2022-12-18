@@ -75,14 +75,14 @@ if uploaded_file is not None:
     c5,c6=st.columns(2)
     with c5:
         cr_bugs=dataframe_b['Build'].value_counts()
-        br_chart3=px.bar(cr_bugs,text_auto=True,color=cr_bugs)
+        br_chart3=px.bar(cr_bugs,text_auto=True)
         br_chart3.update_layout(title_text='<b>Bugs logged in CR Builds<b>',title_x=0.5)
         br_chart3.update_coloraxes(showscale=False)
         br_chart3.update_layout(yaxis_title=None,xaxis_title=None)
         st.plotly_chart(br_chart3)
     with c6:
         comp_bugs=dataframe_b['Component'].value_counts()
-        br_chart4=px.bar(comp_bugs,text_auto=True,color=comp_bugs)
+        br_chart4=px.bar(comp_bugs,text_auto=True)
         br_chart4.update_layout(title_text='<b>Bugs logged in Projects<b>',title_x=0.5)
         br_chart4.update_coloraxes(showscale=False)
         br_chart4.update_layout(yaxis_title=None,xaxis_title=None)
@@ -90,14 +90,14 @@ if uploaded_file is not None:
     c7,c8=st.columns(2)
     with c7:
         bug_status=dataframe_b['Status'].value_counts()
-        br_chart5=px.bar(bug_status,text_auto=True,color=bug_status)
+        br_chart5=px.bar(bug_status,text_auto=True)
         br_chart5.update_layout(title_text='<b>Bug Status<b>',title_x=0.5)
         br_chart5.update_coloraxes(showscale=False)
         br_chart5.update_layout(yaxis_title=None,xaxis_title=None)
         st.plotly_chart(br_chart5)  
     with c8:
         tester_bugs=dataframe_b['Reporter'].value_counts()
-        br_chart8=px.bar(tester_bugs,text_auto=True,color=tester_bugs)
+        br_chart8=px.bar(tester_bugs,text_auto=True)
         br_chart8.update_layout(title_text='<b>Bugs Logged by testers<b>',title_x=0.5)
         br_chart8.update_coloraxes(showscale=False)
         br_chart8.update_layout(yaxis_title=None,xaxis_title=None)
