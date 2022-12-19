@@ -1,4 +1,4 @@
-plotly-express == 22.2.2
+plotly == 0.4.1
 xlrd
 xlutils 
 xlwt 
