@@ -6,4 +6,4 @@ xlwt
 datetime 
 pillow
 openpyxl
-dash
+dash == 2.7.0
