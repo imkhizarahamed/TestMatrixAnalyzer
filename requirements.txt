@@ -1,5 +1,5 @@
-plotly == 3.6.0
-plotly-express == 0.1.0
+plotly == 5.10.0
+plotly-express == 0.4.1
 xlrd
 xlutils 
 xlwt 
